@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/wy.h
+
+/home/wyy/demo/src/main.cpp
+wy.h
+/home/wyy/demo/src/wy.h
+iostream
+-
+
+/home/wyy/demo/src/wy.cpp
+wy.h
+/home/wyy/demo/src/wy.h
+
